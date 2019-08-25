@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fulfil-pod
+spec:
+  selector:
+    matchLabels:
+      run: fulfil-pod
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: fulfil-pod
+    spec:
+      containers:
+      - name: fulfil
+        image: tarunbhardwaj/flask-counter-app
+        ports:
+        - containerPort: 5000
