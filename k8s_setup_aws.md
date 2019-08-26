@@ -93,7 +93,7 @@
   kubectl get hpa
   ```
 
-1. Get the public url of ELB in front of that 1 containers
+### Get the public url of ELB in front of that 1 containers
   ```sh
    kubectl get services
   ``` 
@@ -101,7 +101,7 @@
 
 
 
- 1. To delete cluster
+ ### To delete cluster
     ```sh
      kops delete cluster dev.k8s.redmonkey.in --yes
     ```
