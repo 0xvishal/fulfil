@@ -101,5 +101,5 @@
 
 #### To delete cluster
     ```sh
-     kops delete cluster
+      kops delete cluster dev.k8s.redmonkey.in --yes
     ```
