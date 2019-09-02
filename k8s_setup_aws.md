@@ -100,6 +100,6 @@
 
 
 #### To delete cluster
-    ```sh
-      kops delete cluster dev.k8s.redmonkey.in --yes
-    ```
+  ```sh
+   kops delete cluster dev.k8s.redmonkey.in --yes
+  ```
